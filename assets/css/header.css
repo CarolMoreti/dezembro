@@ -1,0 +1,24 @@
+header .container{
+    margin: 0;
+    padding: 20px 30px 20px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+.right-header ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+    color: #DBD0BE;
+    font-size: 25px;
+}
+.link:hover{
+    color: #c5964b;
+}
